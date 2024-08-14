@@ -1,0 +1,190 @@
+*{
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.App{
+  background-color: whitesmoke;
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.nav-bar{
+  display: flex;
+  background-color: #437FC7;
+  align-items: center;
+  height: 80px; 
+  width: 100%;
+}
+
+.nav-title{
+  padding: 20px;
+  font-size: 30px;
+}
+
+.nav-menu{
+  margin-left: 50px;
+}
+
+.nav-elements{
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  border: 1px solid 437FC7;
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.nav-elements a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-elements:hover {
+  background-color: brown;  /* Color for hover state */
+  transition: background-image 3s ease-in-out;
+}
+
+/* .nav-elements a:hover {
+    transition: white 0.3s ease; 
+} */
+
+.status{
+  border: 2px solid black;
+  padding: 2px;
+  background-color: red;
+  margin-left: 200px;
+}
+
+.nft-container, .items-not-there{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  
+}
+
+.items-not-there{
+  margin-top: 150px;
+}
+
+.form-container{
+  width: 50%;
+  height: 300px;
+  display: flex;
+  margin: 20px auto;
+  background-color: rgb(177, 4, 177);
+  justify-content: center;
+}
+
+.form{
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input{
+  outline: none;
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.input-description{
+  height: 70px;
+}
+
+.input-file{
+  padding: 4px;
+}
+
+.submit-data{
+  padding: 5px 10px;
+  width: 100px;
+}
+
+.nft-card{
+  color: aliceblue;
+  border: 2px solid white;
+  height: 320px;
+  width: 280px;
+  margin: 20px;
+  padding: 5px 5px;
+  background-color: blueviolet;
+}
+
+.nft-card img{
+  width: 100%;
+  height: 60%;
+}
+
+.nft-card description{
+  line-height:3px;
+  overflow: hidden;
+}
+
+.buttons{
+  display: flex;
+  width: 100%;
+  /* margin-left:  */
+  justify-content: space-evenly;
+}
+
+.button{
+  padding: 5px 10px;
+  height: 30px;
+  width: 120px;
+  border-radius: 3px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.desc-container{
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  border: 1px solid red;
+  width: 350px;
+  height: 450px;
+  background-color: blueviolet;
+  padding: 10px;
+  align-items: center;
+}
+
+.left img{
+  width: 100%;
+  height: 300px;
+}
+
+.nft-name{
+  text-align: center;
+}
+
+.nft-name p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buy-btn{
+  padding: 10px 10px;
+  width: 300px;
+  /* background-color: green; */
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+
+
+
+
